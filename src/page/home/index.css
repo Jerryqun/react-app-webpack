@@ -1,0 +1,9 @@
+* {
+  background: #fff;
+}
+
+/*test*/
+
+::placeholder {
+  color: gray;
+}

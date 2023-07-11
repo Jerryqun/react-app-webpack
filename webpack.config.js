@@ -106,7 +106,7 @@ module.exports = {
   devServer: {
     hot: true,
     open: true,
-    progress: true, // 显示打包的进度条 webpack4
+    // progress: true, // 显示打包的进度条 webpack4
     // 设置代理
     proxy: {
       // 将本地 /api/xxx 代理到 localhost:3000/api/xxx

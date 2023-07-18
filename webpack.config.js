@@ -28,7 +28,7 @@ module.exports = {
     removeAvailableModules: false,
     removeEmptyChunks: false,
     // 代码压缩 默认值false 开启后默认只对js代码进行压缩 如果是css 需要配置CssMinimizerPlugin 插件  webpack5默认集成了Terser 插件
-    minimize: true,
+    minimize: false,
     // minimize开启才能生效
     minimizer: [
       // Webpack5 之后，约定使用 `'...'` 字面量保留默认 `minimizer` 配置
